@@ -1,0 +1,58 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+__pypackages__/
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Secrets / env
+.env
+.env.local
+credentials.json
+*.pem
+*.key
+
+# Hugging Face / transformers / model caches & checkpoints
+.cache/
+.hf/
+transformers_cache/
+huggingface/
+huggingface_hub/
+pytorch_model.bin
+tf_model.h5
+*.ckpt
+checkpoint/
+checkpoints/
+
+# Large artifacts / outputs (ubah sesuai kebutuhan)
+sentiment_analysis_results.xlsx
+*.xlsx
+*.pkl
+*.joblib
+*.h5
+*.csv
